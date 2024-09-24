@@ -1,0 +1,78 @@
+body{
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     font-family: 'open Sans', sans-serif;
+     background: #222;
+    background-image: url(https://cdn.pixabay.com/photo/2023/05/22/10/49/houses-8010401_640.jpg);
+font-size: 120%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+transition: background-image 0.5s ease-in-out;
+}
+
+.placeholder {
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=='); /* 1x1 transparent GIF */
+}
+
+.unsplash {
+background-image: none;
+}
+.card{
+    background: #000000d0;
+    color: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 2rem;
+    border-radius: 30px;
+    margin: 1rem;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+button{
+    margin: 0.5rem;
+    width:40px ;
+    height: 40px;
+    border-radius:50% ;
+    background: #7c7c7c;
+  color: white;
+  outline: none;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: #7c7c7c6b;
+}
+.search-bar{
+    border-radius: 24px;
+    padding: 0.4rem 1rem;
+    background: #7c7c7c2b;
+    border: none;
+    outline: none;
+    font-size: 105%;
+    width: calc(100% - 10rem);
+    color: white;
+}
+.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description{
+    text-transform:uppercase;
+    margin-left: 8px;
+    
+  }
